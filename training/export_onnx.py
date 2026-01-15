@@ -1,8 +1,8 @@
 import torch
-from model import AnomalyModel
+from model import AnomalyClassifier
 
-def export():
-    model = AnomalyModel(input_dim=5, num_classes=2)
+def export_onnx():
+    model = AnomalyClassifier(input_dim=5, num_classes=2)
     dummy_input = torch.randn(1, 5)
 
     torch.onnx.export(
@@ -13,7 +13,7 @@ def export():
         output_names=["output"],
         opset_version=12
     )
-    print("[INFO] Exported ONNX model → model.onnx")
+    print("[INFO] Exported model → model.onnx")
 
 if __name__ == "__main__":
-    export()
+    export_onnx()
