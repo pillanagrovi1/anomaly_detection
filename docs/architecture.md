@@ -108,5 +108,3 @@ Where `k_max` is index of maximum FFT bin.
 These features are widely used in rotating machinery diagnostics and predictive maintenance.
 
 
-Resulting feature vector:
-
