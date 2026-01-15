@@ -6,7 +6,7 @@ This directory contains the training pipeline for vibration-based anomaly detect
 
 A small MLP consumes a 5-D engineered feature vector:
 
-[RMS, Energy, Crest, ZCR, F0]
+[RMS, Spectral_Energy, Crest_Factor, Zero_Crossings, Dominant_Frequency]
 
 
 ## Output
