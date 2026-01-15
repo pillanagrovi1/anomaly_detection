@@ -1,6 +1,4 @@
-# anomaly_detection
-
-# Embedded Vibration Anomaly Detection using TinyML on STM32F446RE
+# Anomaly Detection using TinyML on STM32F446RE
 
 This project implements a real-time anomaly detection pipeline on the STM32F446RE (ARM Cortex-M4F) using TinyML. The system extracts vibration features from raw sensor data and performs on-device binary classification.
 
