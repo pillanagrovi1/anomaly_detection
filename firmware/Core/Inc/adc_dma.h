@@ -9,6 +9,7 @@
 extern uint16_t adc_buffer[DSP_FRAME_SIZE];
 extern volatile uint8_t adc_half_ready;
 extern volatile uint8_t adc_full_ready;
+uint8_t ADC_DMA_Poll(void);
 
 void ADC_DMA_Init(void);
 
